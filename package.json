@@ -3,7 +3,8 @@
   "private": true,
   "scripts": {
     "test": "eslint .",
-    "start": "tabris serve -a -i"
+    "start": "tabris serve -a -i",
+    "gitpod": "tabris serve -a -w --no-intro --port 8080 --external $(gp url 8080):443"
   },
   "dependencies": {
     "tabris": "~3.6.0",
