@@ -1,0 +1,6 @@
+{
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "javascript.implicitProjectConfig.experimentalDecorators": true,
+  "eslint.enable": true,
+  "terminal.integrated.commandsToSkipShell": ["-workbench.action.tasks.runTask"]
+}
